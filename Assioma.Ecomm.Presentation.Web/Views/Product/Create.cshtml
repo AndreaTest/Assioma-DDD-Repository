@@ -1,0 +1,28 @@
+﻿<h3>Create new product</h3>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form id="formProduct">
+            <div class="form-group">
+                <label class="control-label" for="Name">Name</label>
+                <input class="form-control" type="text" data-val="true" data-val-length="Use short names, please." data-val-length-max="20" data-val-required="The Name field is required." id="Name" name="Name" value="" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Price">Price</label>
+                <input class="form-control" type="text" data-val="true" data-val-number="The field Price must be a number." data-val-range="Price must be between 1 and 1000 euros." data-val-range-max="1000" data-val-range-min="1" data-val-required="The Price field is required." id="Price" name="Price" value="" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="Price" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a href="/">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

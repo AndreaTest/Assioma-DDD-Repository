@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cross-Cutting Infrastructure", "Cross-Cutting Infrastructure", "{E6DE67E7-6C7F-452A-AC08-D05EE7648961}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L1 - Presentation", "L1 - Presentation", "{AB74EABD-82CC-474A-A445-6BDFC2D7077E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L2 - Application", "L2 - Application", "{87766EA2-7CFF-49C4-BC9E-E5A018FAC721}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L3 - Domain", "L3 - Domain", "{579AC294-C02C-4EB7-886D-A153188F3E09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L4 - Infrastructure", "L4 - Infrastructure", "{5066410A-2E82-4F29-9F43-F342E50B77B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assioma.Ecomm.Presentation.Web", "Assioma.Ecomm.Presentation.Web\Assioma.Ecomm.Presentation.Web.csproj", "{EB5AF042-A878-485A-95EF-D00FD363A8A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assioma.Ecomm.Application.Service", "Assioma.Ecomm.Application.Service\Assioma.Ecomm.Application.Service.csproj", "{46A2164B-E429-4C86-8CF4-ECE56F9AD5A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assioma.Ecomm.Domain", "Assioma.Ecomm.Domain\Assioma.Ecomm.Domain.csproj", "{4EF10E5F-3DEC-4CF0-A160-3C508D982ABA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assioma.Ecomm.Data", "Assioma.Ecomm.Data\Assioma.Ecomm.Data.csproj", "{F2F220D8-26C8-440C-9086-032F64CD00F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assioma.Ecomm.Data.InMemoryTest", "Assioma.Ecomm.Data.InMemoryTest\Assioma.Ecomm.Data.InMemoryTest.csproj", "{896E3DE9-5898-4B95-A9EC-4AAB4A8F37EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assioma.Ecomm.Presentation", "Assioma.Ecomm.Presentation\Assioma.Ecomm.Presentation.csproj", "{AA809DFC-31A7-4082-BDB4-7C23C00350E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{C5DCE5E7-2A28-4DAC-987F-53A23DB1EA60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assioma.Ecomm.Test", "Assioma.Ecomm.Test\Assioma.Ecomm.Test.csproj", "{BD4B7751-59A9-4CA4-9BDB-ED68DD795702}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB5AF042-A878-485A-95EF-D00FD363A8A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5AF042-A878-485A-95EF-D00FD363A8A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5AF042-A878-485A-95EF-D00FD363A8A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5AF042-A878-485A-95EF-D00FD363A8A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46A2164B-E429-4C86-8CF4-ECE56F9AD5A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46A2164B-E429-4C86-8CF4-ECE56F9AD5A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46A2164B-E429-4C86-8CF4-ECE56F9AD5A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46A2164B-E429-4C86-8CF4-ECE56F9AD5A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EF10E5F-3DEC-4CF0-A160-3C508D982ABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EF10E5F-3DEC-4CF0-A160-3C508D982ABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EF10E5F-3DEC-4CF0-A160-3C508D982ABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EF10E5F-3DEC-4CF0-A160-3C508D982ABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2F220D8-26C8-440C-9086-032F64CD00F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2F220D8-26C8-440C-9086-032F64CD00F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2F220D8-26C8-440C-9086-032F64CD00F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2F220D8-26C8-440C-9086-032F64CD00F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{896E3DE9-5898-4B95-A9EC-4AAB4A8F37EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{896E3DE9-5898-4B95-A9EC-4AAB4A8F37EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{896E3DE9-5898-4B95-A9EC-4AAB4A8F37EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{896E3DE9-5898-4B95-A9EC-4AAB4A8F37EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA809DFC-31A7-4082-BDB4-7C23C00350E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA809DFC-31A7-4082-BDB4-7C23C00350E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA809DFC-31A7-4082-BDB4-7C23C00350E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA809DFC-31A7-4082-BDB4-7C23C00350E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD4B7751-59A9-4CA4-9BDB-ED68DD795702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD4B7751-59A9-4CA4-9BDB-ED68DD795702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD4B7751-59A9-4CA4-9BDB-ED68DD795702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD4B7751-59A9-4CA4-9BDB-ED68DD795702}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB5AF042-A878-485A-95EF-D00FD363A8A8} = {AB74EABD-82CC-474A-A445-6BDFC2D7077E}
+		{46A2164B-E429-4C86-8CF4-ECE56F9AD5A1} = {87766EA2-7CFF-49C4-BC9E-E5A018FAC721}
+		{4EF10E5F-3DEC-4CF0-A160-3C508D982ABA} = {579AC294-C02C-4EB7-886D-A153188F3E09}
+		{F2F220D8-26C8-440C-9086-032F64CD00F4} = {5066410A-2E82-4F29-9F43-F342E50B77B9}
+		{896E3DE9-5898-4B95-A9EC-4AAB4A8F37EB} = {5066410A-2E82-4F29-9F43-F342E50B77B9}
+		{AA809DFC-31A7-4082-BDB4-7C23C00350E1} = {AB74EABD-82CC-474A-A445-6BDFC2D7077E}
+		{BD4B7751-59A9-4CA4-9BDB-ED68DD795702} = {C5DCE5E7-2A28-4DAC-987F-53A23DB1EA60}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F632B400-B279-4C35-A2A7-75D6C4528665}
+	EndGlobalSection
+EndGlobal

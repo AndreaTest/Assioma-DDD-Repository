@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.1.18" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.1.18" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Assioma.Ecomm.Application.Service\Assioma.Ecomm.Application.Service.csproj" />
+    <ProjectReference Include="..\Assioma.Ecomm.Data\Assioma.Ecomm.Data.csproj" />
+    <ProjectReference Include="..\Assioma.Ecomm.Domain\Assioma.Ecomm.Domain.csproj" />
+    <ProjectReference Include="..\Assioma.Ecomm.Presentation\Assioma.Ecomm.Presentation.csproj" />
+  </ItemGroup>
+
+</Project>
